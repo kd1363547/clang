@@ -1,0 +1,11 @@
+#include<stdio.h>
+main()
+{
+	float a,b;
+	b = 3.1415;
+	printf("îºåa?");
+	scanf("%f", &a);
+	printf("íºåa=%f\n", a * 2);
+	printf("â~é¸=%f\n", (a * 2)*b);
+	printf("ñ êœ=%f\n", a * a * b);
+}
